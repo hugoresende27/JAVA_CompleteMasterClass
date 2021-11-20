@@ -12,7 +12,10 @@ public class Variables {
         System.out.println(b+ nr+ age+ y +x+ d);
         /////////////////////////////////////////////////////////
         //texto/////////////////////////////////////////////////
-        char a = 67;
+        char letra1 = 67;//print de C, corresponde a 67 na ASCII
+        char letra2 = 97;// a
+        System.out.println(letra1);
+        System.out.println(letra2);
 
     }
 }
