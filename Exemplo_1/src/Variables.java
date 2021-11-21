@@ -13,9 +13,11 @@ public class Variables {
         /////////////////////////////////////////////////////////
         //texto/////////////////////////////////////////////////
         char letra1 = 67;//print de C, corresponde a 67 na ASCII
-        char letra2 = 97;// a
+        char letra2 = 'C';// 2 bytes
+        boolean bol = true; //True ou False
         System.out.println(letra1);
         System.out.println(letra2);
+        System.out.println(bol);
 
     }
 }
