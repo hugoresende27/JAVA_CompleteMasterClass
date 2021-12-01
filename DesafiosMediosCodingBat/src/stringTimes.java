@@ -6,10 +6,15 @@ stringTimes("Hi", 1) → "Hi"
  */
 public class stringTimes {
     public static String stringTimes(String str, int n) {
-        if (n>=0){
-            return str.repeat(n);
+      //  if (n>=0){
+       //     return str.repeat(n);
+      //  }
+       // return str;
+        String res = "";
+        for (int i=0; i<n; i++) {
+            res += str;
         }
-        return str;
+        return res;
     }
 
     public static void main(String[] args) {
