@@ -1,5 +1,6 @@
 /*
-Escrever um programa para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.
+Escrever um programa para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida
+pelo automóvel e o total de combustível gasto.
  * */
 
 import java.util.Scanner;
@@ -12,8 +13,8 @@ public class exercicio3 {
         System.out.print("Combustível gasto (Litros) --> ");
         float comb = input.nextFloat();
         float media = comb / dist;
-        System.out.printf("Fez uma media de %.2f a cada km", media);
+        System.out.printf("Fez uma media de %.2f L a cada km", media);
         float media2 = (comb / dist) * 100;
-        System.out.printf("Fez uma media de %.2f a cada 100kms", media2);
+        System.out.printf("Fez uma media de %.2f L a cada 100 kms", media2);
     }
 }
