@@ -20,6 +20,7 @@ public class mixStart {
         System.out.println(mixStart("mix snacks"));
         System.out.println(mixStart("pix snacks"));
         System.out.println(mixStart("piz snacks"));
+        System.out.println(mixStart("ni") );
     }
 
 }
