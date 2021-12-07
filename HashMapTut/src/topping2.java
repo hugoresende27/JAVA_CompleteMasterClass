@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /*
@@ -11,12 +12,16 @@ topping2({"yogurt": "salt"}) → {"yogurt": "salt"}
  */
 public class topping2 {
     public static Map<String, String> topping2(Map<String, String> map) {
+
+
         if (map.containsKey("ice cream")){
-            map.put("yougurt", map.get("ice cream"));
+            map.put("yogurt", map.get("ice cream"));
         }
-        if (map.containsKey("spinash")){
-            map.put("spinash","nuts");
+        if (map.containsKey("spinach")){
+            map.put("spinach","nuts");
         }
+
+
         return map;
     }
 
