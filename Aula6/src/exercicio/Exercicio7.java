@@ -1,4 +1,4 @@
-/*
+package exercicio;/*
 1.	Desenvolva um programa que permita calcular a área de um círculo, sendo o utilizador a atribuir o valor do raio.
 2.	Desenvolva um programa que permita a multiplicação de dois algarismos inseridos pelo utilizador
 3.	Desenvolva um programa que permita converter o valor de KM apresentado pelo utilizador nos metros correspondentes.
